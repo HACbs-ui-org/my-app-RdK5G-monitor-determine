@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-jxjw
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/stonesoupuicluster/bmorley-tenant/my-app/devfile-sample-python-basic-jxjw@sha256:6ee53c227424a4ab42766dd6d5902f4d27aad0c776f0e2ebe307174de3f3e463
         name: my-python
         ports:
         - containerPort: 8081
